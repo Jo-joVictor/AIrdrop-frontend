@@ -1,0 +1,32 @@
+{
+  "name": "html-ts-coffee-buyme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "vite",
+  "anvil": "anvil --load-state fundme-anvil.json",
+  "format": "prettier --write .",
+  "compile": "tsc --project tsconfig.json"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.8.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.8.1",
+  "type": "module",
+  "dependencies": {
+    "viem": "^2.57.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  }
+}
